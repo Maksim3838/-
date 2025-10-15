@@ -4,7 +4,7 @@ h1 {
 }
 
 .tu {
-   background-image: url('./img/1.jpg'); 
+   background-image: url('./img/ццц.jpg'); 
   background-size: cover;       
   background-position: center;  
   background-repeat: no-repeat; 
@@ -13,7 +13,7 @@ h1 {
 }
 
 .hero-header {
-  background-image: url('./img/ццц.jpg'); /* шлях до твоєї картинки */
+  background-image: url('./img/1.jpg'); /* шлях до твоєї картинки */
   background-size: cover;        /* розтягує фон на весь екран */
   background-position: center;   /* центрує */
   background-repeat: no-repeat;  /* не повторює */
