@@ -1,0 +1,19 @@
+.yy{
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    
+}
+
+.bod {
+    background-color: aqua;
+}
+
+.ww {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+     padding: 0;
+  margin: 0;
+  gap: 40px; 
+}
