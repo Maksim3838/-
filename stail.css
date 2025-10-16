@@ -15,18 +15,18 @@ a {
 
 
 
-.yy{
+.header-text{
     font-size: 50px;
     color: brown;
     text-align: center;
     
 }
 
-.bod {
+.body {
     background-color: rgb(43, 72, 72);
 }
 
-.ww {
+.header-list {
     display: flex;
     justify-content: center;
     list-style: none;
