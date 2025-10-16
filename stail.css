@@ -1,5 +1,5 @@
 ul {
-list-style: none;
+list-style: none;      
 }
 
 address { 
@@ -23,7 +23,7 @@ a {
 }
 
 .bod {
-    background-color: aqua;
+    background-color: rgb(43, 72, 72);
 }
 
 .ww {
