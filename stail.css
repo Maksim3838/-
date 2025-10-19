@@ -37,3 +37,19 @@ a {
 [href="./Ольга.html"] {
     color: #cbfc05;
 }
+
+.back-btn {
+    background-color: #03c139;
+    color: #a12121;
+}
+.back-bt {
+    background-color: blue;
+    color: #a8be97;
+}
+
+.back-rrr {
+    background-color: #cbfc05;
+    color: #8403f5;
+    border-radius: 50%;
+    
+}
