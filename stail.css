@@ -1,55 +1,110 @@
-ul {
-list-style: none;      
-}
-
-address { 
-font-style: normal;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-                       /* ========= */
-
-
-
-.header-text{
-    font-size: 50px;
-    color: brown;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #333;
     text-align: center;
-    
 }
 
-.body {
-    background-color: rgb(43, 72, 72);
+/* HEADER */
+.header {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
+.header h1 {
+    margin-bottom: 10px;
+}
+
+.header img {
+    border-radius: 20px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.header img:hover {
+    transform: scale(1.05);
+}
+
+/* PHONE */
+address a {
+    text-decoration: none;
+    color: #0077ff;
+    font-size: 18px;
+}
+
+/* BUTTON */
+.back-btn {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #0077ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: #005fcc;
+    transform: translateY(-2px);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+}
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* HEADER */
+.header {
+    background: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header-text {
+    margin-bottom: 15px;
+}
+
+/* NAV */
 .header-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
-    list-style: none;
-     padding: 0;
-  margin: 0;
-  gap: 40px; 
-}
-[href="./Ольга.html"] {
-    color: #cbfc05;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.back-btn {
-    background-color: #03c139;
-    color: #a12121;
-}
-.back-bt {
-    background-color: blue;
-    color: #a8be97;
+.header-item a {
+    text-decoration: none;
+    color: white;
+    background: #667eea;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    display: inline-block;
 }
 
-.back-rrr {
-    background-color: #cbfc05;
-    color: #8403f5;
-    border-radius: 50%;
-    
+.header-item a:hover {
+    background: #5a67d8;
+    transform: translateY(-3px);
+}
+
+/* FOOTER */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
 }
